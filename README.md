@@ -1,7 +1,7 @@
 # vue-parcel-starterkit
 > Parcel starterkit for Vue.js with single file components & hot reloading. 🎉
 
-`vue-parcel-starterkit` is inspired by [vue-parcel-example](https://github.com/rohitkrai03/).
+`vue-parcel-starterkit` is inspired by [vue-parcel-example](https://github.com/rohitkrai03/vue-parcel-example).
 The main difference is that this starterkit supports Vue single file components.
 
 # Requirements
