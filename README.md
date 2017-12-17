@@ -29,9 +29,10 @@ npm run dev
 npm run build
 ```
 
-**Common issues**
+# Common issues
 
-While Parcel is still a work in progress, there are some minor issues such as:
+Parcel is still a work in progress, so there could be some issues.
+However most of the issues I ran into already have open pull-requests, so they'll be fixed soon.
 
 `configured port 3000 could not be used.`
 > You can safely ignore this error message as it still works. There's already [a fix](https://github.com/parcel-bundler/parcel/pull/302) being issued.
