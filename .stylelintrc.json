@@ -1,0 +1,21 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "color-no-hex": true,
+    "max-nesting-depth": 3,
+    "selector-max-specificity": "0,2,0",
+    "selector-max-compound-selectors": 3,
+    "font-family-name-quotes": "always-where-required",
+    "function-url-quotes": "always",
+    "selector-attribute-quotes": "always",
+    "string-quotes": "double",
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true
+  }
+}

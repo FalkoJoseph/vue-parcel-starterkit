@@ -1,0 +1,5 @@
+logs.out
+node_modules
+.env
+dist
+.cache
