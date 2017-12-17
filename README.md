@@ -9,13 +9,13 @@ The main difference is that this starterkit supports Vue single file components.
 - Node >= v8
 - [Parcel](parceljs.org)
 
-# Included
+# What's in the box?
 
 - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - [stylelint](https://github.com/stylelint/stylelint)
 - [parcel-plugin-vue](https://github.com/lc60005457/parcel-plugin-vue)
 
-# Usage
+# Getting started
 
 Clone this repository, and run `npm install`.
 
@@ -28,3 +28,13 @@ npm run dev
 ```bash
 npm run build
 ```
+
+**Common issues**
+
+While Parcel is still a work in progress, there are some minor issues such as:
+
+`configured port 3000 could not be used.`
+> You can safely ignore this error message as it still works. There's already [a fix](https://github.com/parcel-bundler/parcel/pull/302) being issued.
+
+`Error: read ECONNRESET`
+> When you manually refresh the page, it breaks the connection. Hot-reloading is not affected. There's [a fix](https://github.com/parcel-bundler/parcel/pull/320) being issued as of right now.
