@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <p>Vue-Parcel Starterkit 📦</p>
   </div>
 </template>
