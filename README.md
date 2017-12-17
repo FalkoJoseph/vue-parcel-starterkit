@@ -38,4 +38,4 @@ However most of the issues I ran into already have open pull-requests, so they'l
 > You can safely ignore this error message as it still works. There's already [a fix](https://github.com/parcel-bundler/parcel/pull/302) being issued.
 
 `Error: read ECONNRESET`
-> When you manually refresh the page, it breaks the connection. Hot-reloading is not affected. There's [a fix](https://github.com/parcel-bundler/parcel/pull/320) being issued as of right now.
+> When you manually refresh the page, it breaks the connection. Hot-reloading works however. There's [a fix](https://github.com/parcel-bundler/parcel/pull/320) being issued as of right now.
