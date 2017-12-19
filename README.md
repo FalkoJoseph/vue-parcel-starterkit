@@ -7,7 +7,7 @@ The main difference is that this starterkit supports Vue single file components.
 # Requirements
 
 - Node >= v8
-- [Parcel](parceljs.org)
+- [Parcel](https://parceljs.org)
 
 # What's in the box?
 
@@ -28,14 +28,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-# Common issues
-
-Parcel is still a work in progress, so there could be some issues.
-However most of the issues I ran into already have open pull-requests, so they'll be fixed soon.
-
-`configured port 3000 could not be used.`
-> You can safely ignore this error message as it still works. There's already [a fix](https://github.com/parcel-bundler/parcel/pull/302) being issued.
-
-`Error: read ECONNRESET`
-> When you manually refresh the page, it breaks the connection. Hot-reloading works however. There's [a fix](https://github.com/parcel-bundler/parcel/pull/320) being issued as of right now.
